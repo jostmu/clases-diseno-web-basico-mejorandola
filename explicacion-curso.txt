@@ -2,7 +2,7 @@ Sitelinks con Navs del menu
 1px equivale a 4px en retina display
 
 
-
+-------------
 Frontend
 HTML: lenguaje de modelado de información
 CSS: Lenguaje declarado usando estilos en cascada para aplicar diseño grafico
