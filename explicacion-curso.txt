@@ -21,3 +21,8 @@ Bases de datos
 
 Medidas
 320px ancho de iphone
+
+-----------------
+Temas de la Clase 1
+	- Github
+	- Estructura semantica HTML5
