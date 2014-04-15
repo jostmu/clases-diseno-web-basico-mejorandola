@@ -26,3 +26,6 @@ Medidas
 Temas de la Clase 1
 	- Github: Sistema de Control de Versiones
 	- Estructura semantica HTML5
+
+Problema CSS Común - Encabezado fondo cortado cuando la página desplazó horizontal
+El problema es que, por defecto (o incluso por CSS explícita) estos divs llenan 100% de la anchura de su contenedor. (Por ejemplo, el cuerpo de la página.) Esto es bueno, porque no importa lo grande que se estire la ventana del navegador, el div se estirará para llenarlo. Desafortunadamente, el 100% se refiere a la anchura de la ventana, por lo que si la ventana se redujo a menos que el tamaño del contenido, que se corta cuando la página se desplaza horizontalmente. ¿La solución? Afortunadamente, es muy sencillo. Sólo tiene que utilizar la propiedad min-width y configurarlo igual al tamaño de ancho fijo del contenido. Mi contenido es 960px de ancho, por lo que mediante el establecimiento de min-width = 960px en el div de cabecera, me aseguro de que siempre es, al menos, que de ancho, incluso si la ventana es más estrecho. Por supuesto, todavía extendió a 100% de tamaño de la ventana si eso es más ancha que 960px. (Si su contenido es de ancho variable, acaba de establecer el mínimo de ancho de la cabecera de la igualdad en la mayor min-width en el contenido -., Es decir, a la anchura en la que aparece la barra de desplazamiento horizontal)
