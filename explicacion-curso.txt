@@ -1,0 +1,23 @@
+Sitelinks con Navs del menu
+1px equivale a 4px en retina display
+
+
+
+Frontend
+HTML: lenguaje de modelado de información
+CSS: Lenguaje declarado usando estilos en cascada para aplicar diseño grafico
+Framework para CSS: Stylus
+
+
+Javascript: Lenguaje de Programacion
+Framework para Javascript: Jquery
+
+Frameworks: Mootools, Jquery
+
+Backend
+Python, Php, Django
+
+Bases de datos
+
+Medidas
+320px ancho de iphone
