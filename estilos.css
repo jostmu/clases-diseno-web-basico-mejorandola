@@ -259,6 +259,26 @@ nav ul #publicar_nav a:hover
 {
 	float: right;
 }
+.formulario
+{
+	display: none;
+	padding: 1em;
+	text-align: right;
+}
+.formulario input
+{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type="submit"]
+{
+	background: #22BCE0;
+	border: 1px solid #22BCE0;
+	border-radius: 5px;
+	color: white;
+	font-style: italic;
+}
 
 
 
